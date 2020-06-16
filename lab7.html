@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <STYLE>
+        *{
+            font-family: Arial, Verdana, sans-serif;
+            color: #665544;
+        }
+        input{
+            border-bottom:1px dotted #dcdcdc;
+            border-top: none;
+            border-right: none;
+            border-left: none;
+            padding: 5px;
+            width: 280px;
+            margin-bottom: 20px;
+        }
+        input:focus{
+            border: 1px dotted #dcdcdc;
+            outline: none;
+        }
+        .b {
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            width: 180px;
+            text-transform: uppercase;
+            float: right;
+            background-color: #665544;
+        }
+
+
+        fieldset{
+            width: 350px;
+            border: 1px solid #dcdcdc;
+            border-radius: 10px;
+            padding: 20px;
+
+
+        }
+
+        legend{
+            background-color: #efefef;
+            border:1px solid #dcdcdc;
+            border-radius: 15px;
+            padding: 10px 20px;
+            text-transform: uppercase;
+        }
+    </STYLE>
+</head>
+<body>
+<form action="">
+    <fieldset class="c">
+        <LEGEND class="A">
+            NEWSLETTER
+        </LEGEND>
+        <label for="NAME">NAME:</label>
+        <input type="text" id="name" required="required" />
+        <label for="EMAIL">EMAIL:</label>
+        <input type="email" id="EMAIL"/>
+
+        <INPUT  class="b" type="submit" value="subscribe">
+    </fieldset>
+</form>
+</body>
+</html>
